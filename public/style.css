@@ -1,0 +1,48 @@
+body {
+    background-image: linear-gradient(#A332E4, #D6552C);
+    display: inline-block;
+}
+
+.bar {
+    height: auto;
+    width: 30vw;
+    background-color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto, auto, auto, auto;
+}
+
+.title {
+    color: white;
+    font-weight: lighter;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.bubble1 {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: #FF966E;
+    margin-top: 170px;
+    margin-left: 20vw;
+}
+
+.bubble2 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #FF966E;
+    margin-top: 170px;
+    margin-left: 20vw;
+}
+
+.bubble3 {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: #FF966E;
+    margin-top: 170px;
+    margin-left: 20vw;
+}
