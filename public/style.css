@@ -19,12 +19,38 @@ body {
 
 .title {
     color: white;
+    font-size: 10vw;
     font-weight: lighter;
     font-family: 'Source Code Pro', monospace;
+    position: absolute;
+    margin-left: 11vw;
+    margin-top: 5vw;
+}
+
+.lowerTitle {
+    margin-left: 4vw;
+    font-size: 6vw;
+    margin-top: 11vw;   
+}
+
+.ingress {
+    position: absolute;
+    display: inline-block;
+    font-size: 2vw;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    margin-left: 10vw;
+    margin-top: 15vw;
+}
+
+.ingress2 {
+    margin-left: 15vw;
+    margin-top: 18vw;
 }
 
 .bubble1 {
     display: inline-flex;
+    position: relative;
     height: 25vw;
     width: 25vw;
     border-radius: 50%;
@@ -35,22 +61,58 @@ body {
 
 .bubble2 {
     display: inline-flex;
+    position: absolute;
     height: 12vw;
     width: 12vw;
     border-radius: 50%;
     background-color: #FF966E;
     opacity: 0.4;
     margin-left: 7vw;
-    margin-bottom: 25vh;
+    margin-top: 7vw;
 }
 
 .bubble3 {
     display: inline-flex;
+    position: absolute;
     height: 7vw;
     width: 7vw;
     border-radius: 50%;
     background-color: #FF966E;
     opacity: 0.2;
-    margin-left: 2vw;
-    margin-bottom: 20vh;
+    margin-left: 20vw;
+    margin-top: 15vw;
+}
+
+.button {
+    background-color: white;
+    font-size: 2.5vw;
+    border-radius: 30vw;
+    width: 17vw;
+    padding: 1vw;
+    border: none;
+    color: #FF966E;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    margin: 1vw;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color:#FF966E;
+    font-size: 2.5vw;
+    border-radius: 30vw;
+    width: 17vw;
+    padding: 1vw;
+    border: none;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    margin: 1vw;
+}
+
+#buttonHolder {
+    display: inline-block;
+    width: 17vw;
+    margin-left: 15vw;
+    margin-top: 25vw;
 }
