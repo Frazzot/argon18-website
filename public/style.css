@@ -189,3 +189,48 @@ body {
     margin-top: 10vw;
 
 }
+
+#projectStruc {
+    margin-left: auto;
+    margin-right: auto; 
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    height: auto;
+}
+
+.whiteText {
+    color: white;
+}
+
+.indent1 {
+    margin-left: 10vw;
+    margin-bottom: 0.5;
+    margin-top: 0.5;
+}
+
+.indent2 {
+    margin-left: 13vw;
+    margin-bottom: 0.5;
+    margin-top: 0.5;
+}
+
+.indent3 {
+    margin-left: 16vw;
+    margin-bottom: 0.5;
+    margin-top: 0.5;
+}
+
+.indent4 {
+    margin-left: 19vw;
+    margin-bottom: 0.5;
+    margin-top: 0.5;
+}
+
+#fixTextDiv2 {
+    padding-top: 5vw;
+}
+
+#widerText {
+    width: 70vw;
+}
+
