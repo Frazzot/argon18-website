@@ -123,6 +123,7 @@ body {
     font-family: 'Source Code Pro', monospace;
     font-weight: bold;
     margin: 1vw;
+    letter-spacing: 0.2vw;
 }
 
 #buttonHolder {
@@ -141,7 +142,7 @@ body {
 }
 
 .textContainer {
-    width: 40vw;
+    width: 45vw;
     margin: auto;
 }
 
@@ -154,9 +155,10 @@ body {
 
 .text {
     color: #FF966E;
-    font-size: 1.5vw;
     font-family: 'Source Code Pro', monospace;
     font-weight: bold;
+    font-size: 1.3vw;
+    line-height: 2.2vw;
 }
 
 .exampleBox {
@@ -227,16 +229,22 @@ body {
 
 #fixTextDiv2 {
     padding-top: 5vw;
+    font-size: 1.3vw;
+    line-height: 2.2vw;
 }
 
 #widerText {
-    width: 70vw;
+    width: 60vw;
     margin-top: 20vw;
     padding-left: 3vw;
 }
 
 #lessPadding {
     padding-bottom: 1vw;
+}
+
+#smallerTitle {
+    font-size: 2.5vw;
 }
 
 .buttonRound {
@@ -249,6 +257,12 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 8vw;
+    transition: 0.4s;
+}
+
+.buttonRound:hover {
+    width: 6.5vw;
+    height: 6.5vw;
 }
 
 .material-icons {
@@ -256,6 +270,13 @@ body {
     color: #D6552C;
     margin-left: 0.5vw;
     margin-top: 0.5vw;
+    transition: 0.3s
+}
+
+.material-icons:hover {
+    font-size: 6vw;
+    margin-left: 0.3vw;
+    margin-top: 0.3vw;
 }
 
 .marginAuto {
