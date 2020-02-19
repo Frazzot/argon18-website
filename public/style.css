@@ -7,11 +7,11 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background-image: linear-gradient(#A332E4, #D6552C);
+  background-image: linear-gradient(rgb(183, 79, 243), rgb(243, 112, 72));
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.425);
   border-radius: 6px;
 }
 
